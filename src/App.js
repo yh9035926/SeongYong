@@ -1,10 +1,10 @@
 import React from "react";
-import Todo from "./pages/todo";
+import Reducer from "./components/reducer";
 
 const App = () => {
   return (
     <div>
-      <Todo></Todo>
+      <Reducer></Reducer>
     </div>
   );
 };
