@@ -1,10 +1,13 @@
 import React from "react";
-import Reducer from "./components/reducer";
+import ContextApi from "./components/contextApi";
+import ContextProvider from "./reducer/context";
 
 const App = () => {
   return (
     <div>
-      <Reducer></Reducer>
+      <ContextProvider>
+        <ContextApi></ContextApi>
+      </ContextProvider>
     </div>
   );
 };
