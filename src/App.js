@@ -1,13 +1,9 @@
 import React from "react";
-import ContextApi from "./components/contextApi";
-import ContextProvider from "./reducer/context";
-
+import Todo from "./pages/todo";
 const App = () => {
   return (
     <div>
-      <ContextProvider>
-        <ContextApi></ContextApi>
-      </ContextProvider>
+      <Todo></Todo>
     </div>
   );
 };
